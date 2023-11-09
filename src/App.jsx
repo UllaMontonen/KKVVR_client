@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import CheckTicket from './components/CheckTicket';
 import './App.css'
 
 function App() {
@@ -45,6 +46,7 @@ function App() {
         </form>
         <small className="copyright">&copy; SK(R)UM team</small>
       </div>
+      < CheckTicket username={username} password={password} />
     </>
   )
 }
